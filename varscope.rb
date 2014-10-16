@@ -41,4 +41,23 @@ end
 
 puts x
 
-puts y # => throws error
+#puts y # => throws error
+
+# -------- ----------------
+
+array = [1, 2, 3]
+
+d = 1
+
+puts d
+
+array.each do |num|
+  num.times do
+    puts "***************"
+    puts d = 3
+    puts num
+  end
+end
+
+puts d, num
+
